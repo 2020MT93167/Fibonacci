@@ -7,3 +7,6 @@ def fib(b):
 
 b = int(input("Enter a number : "))
 print(fib(b))
+
+def add(a,b):
+    return a + b
