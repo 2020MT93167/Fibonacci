@@ -5,5 +5,5 @@ def fib(a):
         return 1
     return fib(a-1) + fib(a-1)
 
-n = int(input("Enter a number : "))
-print(fib(n))
+ a= int(input("Enter a number : "))
+print(fib(a))
