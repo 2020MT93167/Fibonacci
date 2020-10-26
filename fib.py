@@ -5,7 +5,7 @@ def fib(b):
         return 1
     return fib(b-1) + fib(b-1)
 
-b = int(input("Enter a number :  "))
+b = int(input("Enter a number : "))
 print(fib(b))
 
 def add(a,b):
