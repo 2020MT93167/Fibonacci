@@ -1,9 +1,9 @@
-def fib(n):
-    if n == 0:
+def fib(b):
+    if b == 0:
         return 0
-    if n == 1 :
+    if b == 1 :
         return 1
-    return fib(n-1) + fib(n-1)
+    return fib(b-1) + fib(b-1)
 
-n = int(input("Enter a number : "))
-print(fib(n))
+b = int(input("Enter a number : "))
+print(fib(b))
